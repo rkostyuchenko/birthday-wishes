@@ -1,0 +1,16 @@
+.page__content {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  min-height: 100vh;
+  max-width: 1024px;
+  padding: 50px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .page__content {
+    padding: 50px 100px;
+  }
+}

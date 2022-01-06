@@ -1,0 +1,24 @@
+.wish {
+  font-family: 'Piazzolla', serif;
+  color: #517fa4;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.wish__action {
+  margin-top: 24px;
+}
+
+.wish__button {
+  background: none;
+  border: 0;
+  color: #7d7d7d;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .wish {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
